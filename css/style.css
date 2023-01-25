@@ -16,4 +16,85 @@ ul, ol {
     width: 1140px;
     margin: 0 auto;
 }
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
 /* End Common CSS */
+
+/* Start Header Area */
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.header-logo h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+    margin-right: 35px;
+}
+
+.header-menu ul li:last-child {
+    margin-right: 0;
+}
+/* End Header Area */
+
+/* Start Banner Area */
+#banner {
+    padding-top: 116px;
+}
+
+.banner-title {
+    width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-title h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #131313;
+    padding: 0 120px;
+}
+
+.banner-title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    padding: 33px 0;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    display: block;
+}
+
+.banner-img {
+    margin-top: 50px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+/* End Banner Area */
