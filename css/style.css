@@ -248,3 +248,39 @@ section {
     color: #fff;
 }
 /* End Future Area */
+
+/* Start Some Facts Area */
+#some-facts .quick-list-text h2 {
+    color: #131313;
+}
+
+.some-facts-box-area {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.s-f-box {
+    width: 241px;
+    height: 241px;
+    border-radius: 8px;
+    border: solid 2px #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-f-box h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    padding: 10px 0px 5px 0px;
+}
+
+.s-f-box p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+/* End Some Facts Area */
