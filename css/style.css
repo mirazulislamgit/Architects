@@ -284,3 +284,25 @@ section {
     color: #727272;
 }
 /* End Some Facts Area */
+
+/* Start Sponspors Area */
+#sponspors .quick-list-text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sponspors .quick-list-text h2 {
+    color: #131313;
+    font-weight: 700;
+}
+
+.sponspors-area {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponspors-item {
+    width: 166px;
+}
+/* End Sponspors Area */
