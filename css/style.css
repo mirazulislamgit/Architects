@@ -306,3 +306,19 @@ section {
     width: 166px;
 }
 /* End Sponspors Area */
+
+/* Start Copyright Area */
+.copyright-area {
+    width: 100%;
+    padding: 38px 0;
+    background-color: #FFF4E7;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.copyright-area p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+}
+/* End Copyright Area */
