@@ -20,6 +20,10 @@ ul, ol {
 body {
     font-family: 'Work Sans', sans-serif;
 }
+
+section {
+    padding-top: 130px;
+}
 /* End Common CSS */
 
 /* Start Header Area */
@@ -99,56 +103,148 @@ body {
 }
 /* End Banner Area */
 
-/* Start Future Area */
-.fitures-area {
-    padding-top: 130px;
+/* Start Quick List Area */
+.quick-list-area {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.future-images {
+.quick-list-images {
     width: 708px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
-.f-i-box {
+.q-i-box {
     width: 342px;
     height: 342px;
 }
 
-.f-i-box img {
+.q-i-box img {
     width: 100%;
 }
 
-.future-text {
+.quick-list-text {
     width: 537px;
 }
 
-.future-text h2 {
+.quick-list-text h2 {
     font-size: 45px;
     font-weight: 500;
     line-height: 52px;
     color: #727272;
 }
 
-.future-text h2 span:nth-child(1) {
+.quick-list-text h2 span:nth-child(1) {
     color: #131313;
     font-weight: 700;
 }
 
-.future-text h2 span:nth-child(2) {
+.quick-list-text h2 span:nth-child(2) {
     color: #FF900E;
     font-weight: 700;
 }
 
-.future-text p {
+.quick-list-text p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     color: #727272;
     padding: 24px 0px 32px 0px;
+}
+/* End Quick List Area */
+
+/* Start Future Area */
+.future-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-title {
+    width: 586px;
+}
+
+.future-title h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #131313;
+    padding-right: 110px;
+    position: relative;
+}
+
+.future-title h2::after {
+    content: '';
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+    position: absolute;
+    top: 0;
+    left: -21px;
+}
+
+.future-title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    padding: 24px 0px 30px 0px;
+}
+
+.future-text-box {
+    width: 556px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+    padding: 30px 30px;
+}
+
+.future-text-box:last-child {
+    margin-bottom: 0;
+}
+
+.future-text-box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+.future-text-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+}
+
+.future-images {
+    position: relative;
+}
+
+.experience-box {
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -77px;
+    left: -92px;
+    border-radius: 8px;
+}
+
+.experience-box h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.experience-box span {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
 }
 /* End Future Area */
